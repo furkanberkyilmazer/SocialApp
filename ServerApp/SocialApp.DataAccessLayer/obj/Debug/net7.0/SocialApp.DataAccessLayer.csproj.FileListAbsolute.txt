@@ -1,0 +1,17 @@
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.DataAccessLayer\bin\Debug\net7.0\SocialApp.DataAccessLayer.deps.json
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.DataAccessLayer\bin\Debug\net7.0\SocialApp.DataAccessLayer.runtimeconfig.json
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.DataAccessLayer\bin\Debug\net7.0\SocialApp.DataAccessLayer.dll
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.DataAccessLayer\bin\Debug\net7.0\SocialApp.DataAccessLayer.pdb
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.DataAccessLayer\bin\Debug\net7.0\SocialApp.EntityLayer.dll
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.DataAccessLayer\bin\Debug\net7.0\SocialApp.EntityLayer.pdb
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.DataAccessLayer\obj\Debug\net7.0\SocialApp.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.DataAccessLayer\obj\Debug\net7.0\SocialApp.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.DataAccessLayer\obj\Debug\net7.0\SocialApp.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.DataAccessLayer\obj\Debug\net7.0\SocialApp.DataAccessLayer.AssemblyInfo.cs
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.DataAccessLayer\obj\Debug\net7.0\SocialApp.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.DataAccessLayer\obj\Debug\net7.0\SocialApp.DataAccessLayer.csproj.CopyComplete
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.DataAccessLayer\obj\Debug\net7.0\SocialApp.DataAccessLayer.dll
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.DataAccessLayer\obj\Debug\net7.0\refint\SocialApp.DataAccessLayer.dll
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.DataAccessLayer\obj\Debug\net7.0\SocialApp.DataAccessLayer.pdb
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.DataAccessLayer\obj\Debug\net7.0\SocialApp.DataAccessLayer.genruntimeconfig.cache
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.DataAccessLayer\obj\Debug\net7.0\ref\SocialApp.DataAccessLayer.dll

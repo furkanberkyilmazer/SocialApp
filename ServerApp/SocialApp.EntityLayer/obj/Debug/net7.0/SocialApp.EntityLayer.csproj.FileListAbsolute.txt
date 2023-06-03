@@ -1,0 +1,14 @@
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.EntityLayer\bin\Debug\net7.0\SocialApp.EntityLayer.deps.json
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.EntityLayer\bin\Debug\net7.0\SocialApp.EntityLayer.runtimeconfig.json
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.EntityLayer\bin\Debug\net7.0\SocialApp.EntityLayer.dll
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.EntityLayer\bin\Debug\net7.0\SocialApp.EntityLayer.pdb
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.EntityLayer\obj\Debug\net7.0\SocialApp.EntityLayer.csproj.AssemblyReference.cache
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.EntityLayer\obj\Debug\net7.0\SocialApp.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.EntityLayer\obj\Debug\net7.0\SocialApp.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.EntityLayer\obj\Debug\net7.0\SocialApp.EntityLayer.AssemblyInfo.cs
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.EntityLayer\obj\Debug\net7.0\SocialApp.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.EntityLayer\obj\Debug\net7.0\SocialApp.EntityLayer.dll
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.EntityLayer\obj\Debug\net7.0\refint\SocialApp.EntityLayer.dll
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.EntityLayer\obj\Debug\net7.0\SocialApp.EntityLayer.pdb
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.EntityLayer\obj\Debug\net7.0\SocialApp.EntityLayer.genruntimeconfig.cache
+C:\Users\Furkan Berk Yılmazer\Desktop\SocialApp\ServerApp\SocialApp.EntityLayer\obj\Debug\net7.0\ref\SocialApp.EntityLayer.dll
