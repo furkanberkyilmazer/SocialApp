@@ -157,6 +157,48 @@ namespace SocialApp.DataAccessLayer.Migrations
                     b.ToTable("Images");
                 });
 
+            modelBuilder.Entity("SocialApp.EntityLayer.Concrete.Message", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime?>("DateAdded")
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<DateTime?>("DateRead")
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<bool?>("IsRead")
+                        .HasColumnType("boolean");
+
+                    b.Property<bool?>("RecipientDeleted")
+                        .HasColumnType("boolean");
+
+                    b.Property<int>("RecipientId")
+                        .HasColumnType("integer");
+
+                    b.Property<bool?>("SenderDeleted")
+                        .HasColumnType("boolean");
+
+                    b.Property<int>("SenderId")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Text")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RecipientId");
+
+                    b.HasIndex("SenderId");
+
+                    b.ToTable("Messages");
+                });
+
             modelBuilder.Entity("SocialApp.EntityLayer.Concrete.Role", b =>
                 {
                     b.Property<int>("Id")
@@ -227,7 +269,7 @@ namespace SocialApp.DataAccessLayer.Migrations
                     b.Property<string>("Hobbies")
                         .HasColumnType("text");
 
-                    b.Property<string>("Introdution")
+                    b.Property<string>("Introduction")
                         .HasColumnType("text");
 
                     b.Property<DateTime?>("LastActive")
@@ -284,6 +326,21 @@ namespace SocialApp.DataAccessLayer.Migrations
                         .HasDatabaseName("UserNameIndex");
 
                     b.ToTable("AspNetUsers", (string)null);
+                });
+
+            modelBuilder.Entity("SocialApp.EntityLayer.Concrete.UserToUser", b =>
+                {
+                    b.Property<int>("UserId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("FollowerId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("UserId", "FollowerId");
+
+                    b.HasIndex("FollowerId");
+
+                    b.ToTable("UserToUser");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
@@ -346,9 +403,55 @@ namespace SocialApp.DataAccessLayer.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("SocialApp.EntityLayer.Concrete.Message", b =>
+                {
+                    b.HasOne("SocialApp.EntityLayer.Concrete.User", "Recipient")
+                        .WithMany("MessagesReceived")
+                        .HasForeignKey("RecipientId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SocialApp.EntityLayer.Concrete.User", "Sender")
+                        .WithMany("MessagesSent")
+                        .HasForeignKey("SenderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Recipient");
+
+                    b.Navigation("Sender");
+                });
+
+            modelBuilder.Entity("SocialApp.EntityLayer.Concrete.UserToUser", b =>
+                {
+                    b.HasOne("SocialApp.EntityLayer.Concrete.User", "User")
+                        .WithMany("Followers")
+                        .HasForeignKey("FollowerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SocialApp.EntityLayer.Concrete.User", "Follower")
+                        .WithMany("Followings")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Follower");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("SocialApp.EntityLayer.Concrete.User", b =>
                 {
+                    b.Navigation("Followers");
+
+                    b.Navigation("Followings");
+
                     b.Navigation("Images");
+
+                    b.Navigation("MessagesReceived");
+
+                    b.Navigation("MessagesSent");
                 });
 #pragma warning restore 612, 618
         }

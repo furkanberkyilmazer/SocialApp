@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.API\\SocialApp.API.csproj": {}
+    "C:\\Users\\Atlas Tekno 2\\Desktop\\SocialApp\\SocialApp\\ServerApp\\SocialApp.API\\SocialApp.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.API\\SocialApp.API.csproj": {
+    "C:\\Users\\Atlas Tekno 2\\Desktop\\SocialApp\\SocialApp\\ServerApp\\SocialApp.API\\SocialApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.API\\SocialApp.API.csproj",
+        "projectUniqueName": "C:\\Users\\Atlas Tekno 2\\Desktop\\SocialApp\\SocialApp\\ServerApp\\SocialApp.API\\SocialApp.API.csproj",
         "projectName": "SocialApp.API",
-        "projectPath": "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.API\\SocialApp.API.csproj",
-        "packagesPath": "C:\\Users\\Furkan Berk Yılmazer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.API\\obj\\",
+        "projectPath": "C:\\Users\\Atlas Tekno 2\\Desktop\\SocialApp\\SocialApp\\ServerApp\\SocialApp.API\\SocialApp.API.csproj",
+        "packagesPath": "C:\\Users\\Atlas Tekno 2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Atlas Tekno 2\\Desktop\\SocialApp\\SocialApp\\ServerApp\\SocialApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Furkan Berk Yılmazer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Atlas Tekno 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,18 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.BusinessLayer\\SocialApp.BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.BusinessLayer\\SocialApp.BusinessLayer.csproj"
-              },
-              "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.DataAccessLayer\\SocialApp.DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.DataAccessLayer\\SocialApp.DataAccessLayer.csproj"
+              "C:\\Users\\Atlas Tekno 2\\Desktop\\SocialApp\\SocialApp\\ServerApp\\SocialApp.BusinessLayer\\SocialApp.BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Atlas Tekno 2\\Desktop\\SocialApp\\SocialApp\\ServerApp\\SocialApp.BusinessLayer\\SocialApp.BusinessLayer.csproj"
               }
             }
           }
@@ -145,25 +141,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.BusinessLayer\\SocialApp.BusinessLayer.csproj": {
+    "C:\\Users\\Atlas Tekno 2\\Desktop\\SocialApp\\SocialApp\\ServerApp\\SocialApp.BusinessLayer\\SocialApp.BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.BusinessLayer\\SocialApp.BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Atlas Tekno 2\\Desktop\\SocialApp\\SocialApp\\ServerApp\\SocialApp.BusinessLayer\\SocialApp.BusinessLayer.csproj",
         "projectName": "SocialApp.BusinessLayer",
-        "projectPath": "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.BusinessLayer\\SocialApp.BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\Furkan Berk Yılmazer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.BusinessLayer\\obj\\",
+        "projectPath": "C:\\Users\\Atlas Tekno 2\\Desktop\\SocialApp\\SocialApp\\ServerApp\\SocialApp.BusinessLayer\\SocialApp.BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\Atlas Tekno 2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Atlas Tekno 2\\Desktop\\SocialApp\\SocialApp\\ServerApp\\SocialApp.BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Furkan Berk Yılmazer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Atlas Tekno 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -172,15 +167,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.DataAccessLayer\\SocialApp.DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.DataAccessLayer\\SocialApp.DataAccessLayer.csproj"
+              "C:\\Users\\Atlas Tekno 2\\Desktop\\SocialApp\\SocialApp\\ServerApp\\SocialApp.DataAccessLayer\\SocialApp.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Atlas Tekno 2\\Desktop\\SocialApp\\SocialApp\\ServerApp\\SocialApp.DataAccessLayer\\SocialApp.DataAccessLayer.csproj"
               }
             }
           }
@@ -248,25 +242,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.DataAccessLayer\\SocialApp.DataAccessLayer.csproj": {
+    "C:\\Users\\Atlas Tekno 2\\Desktop\\SocialApp\\SocialApp\\ServerApp\\SocialApp.DataAccessLayer\\SocialApp.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.DataAccessLayer\\SocialApp.DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Atlas Tekno 2\\Desktop\\SocialApp\\SocialApp\\ServerApp\\SocialApp.DataAccessLayer\\SocialApp.DataAccessLayer.csproj",
         "projectName": "SocialApp.DataAccessLayer",
-        "projectPath": "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.DataAccessLayer\\SocialApp.DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\Furkan Berk Yılmazer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.DataAccessLayer\\obj\\",
+        "projectPath": "C:\\Users\\Atlas Tekno 2\\Desktop\\SocialApp\\SocialApp\\ServerApp\\SocialApp.DataAccessLayer\\SocialApp.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Atlas Tekno 2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Atlas Tekno 2\\Desktop\\SocialApp\\SocialApp\\ServerApp\\SocialApp.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Furkan Berk Yılmazer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Atlas Tekno 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -275,15 +268,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.EntityLayer\\SocialApp.EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.EntityLayer\\SocialApp.EntityLayer.csproj"
+              "C:\\Users\\Atlas Tekno 2\\Desktop\\SocialApp\\SocialApp\\ServerApp\\SocialApp.EntityLayer\\SocialApp.EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\Atlas Tekno 2\\Desktop\\SocialApp\\SocialApp\\ServerApp\\SocialApp.EntityLayer\\SocialApp.EntityLayer.csproj"
               }
             }
           }
@@ -355,25 +347,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.EntityLayer\\SocialApp.EntityLayer.csproj": {
+    "C:\\Users\\Atlas Tekno 2\\Desktop\\SocialApp\\SocialApp\\ServerApp\\SocialApp.EntityLayer\\SocialApp.EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.EntityLayer\\SocialApp.EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Atlas Tekno 2\\Desktop\\SocialApp\\SocialApp\\ServerApp\\SocialApp.EntityLayer\\SocialApp.EntityLayer.csproj",
         "projectName": "SocialApp.EntityLayer",
-        "projectPath": "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.EntityLayer\\SocialApp.EntityLayer.csproj",
-        "packagesPath": "C:\\Users\\Furkan Berk Yılmazer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Furkan Berk Yılmazer\\Desktop\\SocialApp\\ServerApp\\SocialApp.EntityLayer\\obj\\",
+        "projectPath": "C:\\Users\\Atlas Tekno 2\\Desktop\\SocialApp\\SocialApp\\ServerApp\\SocialApp.EntityLayer\\SocialApp.EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\Atlas Tekno 2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Atlas Tekno 2\\Desktop\\SocialApp\\SocialApp\\ServerApp\\SocialApp.EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Furkan Berk Yılmazer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Atlas Tekno 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -382,7 +373,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -458,7 +448,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -16,6 +16,12 @@ import { RouterModule } from '@angular/router';
 import { AuthGuard } from './auth-guard';
 import { ErrorInterceptor } from './_services/error.intercaptor';
 import { MemberDetailsComponent } from './members/member-details/member-details.component';
+import { MemberEditComponent } from './members/member-edit/member-edit.component';
+import { PhotoGalleryComponent } from './photo-gallery/photo-gallery.component';
+import { MemberEditResolver } from './_resolvers/member-edit.resolver';
+import { LightboxModule } from 'ngx-lightbox';
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { NgxSpinnerModule } from "ngx-spinner";
 
 @NgModule({
   declarations: [
@@ -27,7 +33,10 @@ import { MemberDetailsComponent } from './members/member-details/member-details.
     HomeComponent,
     MessagesComponent,
     NotfoundComponent,
-    MemberDetailsComponent
+    MemberDetailsComponent,
+    PhotoGalleryComponent,
+    MemberEditComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -35,13 +44,20 @@ import { MemberDetailsComponent } from './members/member-details/member-details.
     FormsModule,
     HttpClientModule,
     RouterModule,
+    LightboxModule,
+    BrowserAnimationsModule,
+    NgxSpinnerModule,
 
   ],
-  providers: [AuthGuard,{
+  providers: [
+    AuthGuard,
+    {
     provide:HTTP_INTERCEPTORS,
     useClass:ErrorInterceptor,
     multi:true
-  }],
-  bootstrap: [AppComponent]
+    },
+    MemberEditResolver,
+],
+bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -25,9 +25,13 @@ namespace SocialApp.EntityLayer.DTO
         public string? City { get; set; }
 
         public string? Country { get; set; }
-        public string? Introdution { get; set; }
+        public string? Introduction { get; set; }
 
         public string? Hobbies { get; set; }
-        public List<ImagesForDetails> Images { get; set; }
+
+        public string ProfileImageUrl { get; set; }
+        public List<ImagesForDetailsDTO> Images { get; set; }
+
+        public string? FollowTittle { get; set; }
     }
 }

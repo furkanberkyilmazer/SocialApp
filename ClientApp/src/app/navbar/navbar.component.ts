@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../_services/auth.service';
 import { Router } from '@angular/router';
 import { AlertifyService } from '../_services/alertify.service';
+import { NgxSpinnerService } from "ngx-spinner";
 
 @Component({
   selector: 'navbar',
@@ -12,17 +13,20 @@ export class NavbarComponent implements OnInit {
 
   username:any;
   model:any={};
-  constructor(public authService:AuthService,private router:Router,private alertify: AlertifyService){}
+  constructor(public authService:AuthService,private router:Router,private alertify: AlertifyService,private spinner: NgxSpinnerService){}
   ngOnInit():void{
 
   }
   login(){
+    this.spinner.show();
      this.authService.login(this.model).subscribe(next=>{
+      this.spinner.hide();
       this.alertify.success("Welcome ");
       this.router.navigate(['/members'])
 
      },
      error=>{
+      this.spinner.hide();
       this.alertify.error(error);
     })
 
@@ -33,7 +37,7 @@ export class NavbarComponent implements OnInit {
   }
   logout(){
     this.alertify.warning("GoodBye ");
-    localStorage.removeItem("token");
+    this.authService.logout();
     this.router.navigate(['/home']);
   }
 }

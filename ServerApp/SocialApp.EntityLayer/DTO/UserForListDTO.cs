@@ -26,6 +26,6 @@ namespace SocialApp.EntityLayer.DTO
 
         public string? Country { get; set; }
 
-        public ImagesForDetails Image { get; set; }
+        public ImagesForDetailsDTO Image { get; set; }
     }
 }

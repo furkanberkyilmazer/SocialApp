@@ -1,0 +1,1 @@
+Bir component yüklendiğinde bir veriye ulaşırken asenkron bir yapıda veri gelene kadar component  açıldığı için hata verir veri gelene kadar bunun yaşanmaması için önce resolverdan çekersin veriyi.

@@ -5,11 +5,16 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocialApp.API", "SocialApp.API\SocialApp.API.csproj", "{870B1A11-B495-4809-8B0A-213FC11C6971}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialApp.EntityLayer", "SocialApp.EntityLayer\SocialApp.EntityLayer.csproj", "{DEDEAB3F-0A18-4367-A8D0-AB800E8A84A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocialApp.EntityLayer", "SocialApp.EntityLayer\SocialApp.EntityLayer.csproj", "{DEDEAB3F-0A18-4367-A8D0-AB800E8A84A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialApp.DataAccessLayer", "SocialApp.DataAccessLayer\SocialApp.DataAccessLayer.csproj", "{692AD4C9-51E6-472B-87B9-71F2EF0E1E0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocialApp.DataAccessLayer", "SocialApp.DataAccessLayer\SocialApp.DataAccessLayer.csproj", "{692AD4C9-51E6-472B-87B9-71F2EF0E1E0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialApp.BusinessLayer", "SocialApp.BusinessLayer\SocialApp.BusinessLayer.csproj", "{A798FA9F-C3EE-41B4-903E-38F3203984B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocialApp.BusinessLayer", "SocialApp.BusinessLayer\SocialApp.BusinessLayer.csproj", "{A798FA9F-C3EE-41B4-903E-38F3203984B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Çözüm Öğeleri", "Çözüm Öğeleri", "{E646EC93-69E2-400F-BAC7-106F3910EFE1}"
+	ProjectSection(SolutionItems) = preProject
+		dockerKurulum.txt = dockerKurulum.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

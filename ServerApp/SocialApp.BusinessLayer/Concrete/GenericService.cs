@@ -1,14 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SocialApp.BusinessLayer.Abstract;
 using SocialApp.DataAccessLayer.Abstract;
-using SocialApp.DataAccessLayer.Repositories;
 using SocialApp.DataAccessLayer.UnitOfWork;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SocialApp.BusinessLayer.Concrete
 {

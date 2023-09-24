@@ -2,12 +2,6 @@
 using SocialApp.DataAccessLayer.Abstract;
 using SocialApp.DataAccessLayer.UnitOfWork;
 using SocialApp.EntityLayer.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SocialApp.BusinessLayer.Concrete
 {
@@ -22,18 +16,36 @@ namespace SocialApp.BusinessLayer.Concrete
             _unitofWork = unitofWork;
         }
 
-        public async Task<List<User>> GetUsersWithImages()
-        {
-            var users = await _userDal.GetUsersWithImagesAsync();
-
-            return users;
+        public async Task<bool> AllowToFollow(int userId, int otherUserId)
+        {    
+            return await _userDal.AllowToFollow(userId, otherUserId);
         }
 
-        public async Task<User> GetUsersWithImagesById(int id)
+        public async Task<UserToUser> Follow(UserToUser entity)
         {
-            var user = await _userDal.GetUserWithImagesByIdAsync(id);
+            await _userDal.Follow(entity);
+            await _unitofWork.CommitAsync();
+            return entity;
+        }
 
-            return user;
+        public async Task<List<User>> GetUsersWithImages(UserQueryParams userParams)
+        {
+      
+            return await _userDal.GetUsersWithImagesAsync(userParams);
+        }
+
+        public async Task<User> GetUserWithImagesById(int id)
+        {
+           
+
+            return await _userDal.GetUserWithImagesByIdAsync(id);
+        }
+
+        public async Task UnFollow(UserToUser entity)
+        {
+             _userDal.UnFollow(entity);
+            await _unitofWork.CommitAsync();
+    
         }
     }
 }

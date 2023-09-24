@@ -1,15 +1,14 @@
 ﻿using SocialApp.EntityLayer.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SocialApp.BusinessLayer.Abstract
 {
     public interface IUserService:IGenericService<User>
     {
-        Task<List<User>> GetUsersWithImages();
-        Task<User> GetUsersWithImagesById(int id);
+        Task<List<User>> GetUsersWithImages(UserQueryParams userParams);
+        Task<User> GetUserWithImagesById(int id);
+        Task<UserToUser> Follow (UserToUser entity);
+
+        Task UnFollow(UserToUser entity);
+        Task<Boolean> AllowToFollow(int userId , int otherUserId);
     }
 }
